@@ -6,7 +6,7 @@ public class ChessGame {
     public static void main(String[] args) {
         Board board = new Board();
         try {
-            UserInputFile userInputFile = new UserInputFile("check-mate.txt");
+            UserInputFile userInputFile = new UserInputFile("checkmate.txt");
             int i = 0;
             int[] moveData = userInputFile.nextMove();
             while (moveData != null) {
